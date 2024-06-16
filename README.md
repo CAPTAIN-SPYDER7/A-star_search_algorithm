@@ -12,28 +12,6 @@ The A* algorithm is a widely used search algorithm in pathfinding and graph trav
 - **Movement Model**: The robot can move in four directions—up, down, left, and right.
 - **Heuristic Function**: The Euclidean distance is used as the heuristic to estimate the cost from any cell to the goal.
 
-## Implementation Details
-
-The core of the implementation is in the `do_a_star` function which follows these steps:
-
-1. **Initialization**:
-   - Start with an open set containing the start node.
-   - Initialize the `came_from` dictionary to keep track of the path.
-   - Set the `g_score` (actual cost from start to current node) of the start node to 0.
-   - Set the `f_score` (estimated total cost from start to goal through the current node) using the heuristic for the start node.
-
-2. **Main Loop**:
-   - Select the node in the open set with the lowest `f_score`.
-   - If this node is the goal, reconstruct and return the path.
-   - Move this node from the open set to the closed set.
-   - For each neighbor of the current node, calculate the tentative `g_score` and update the scores if this path is better.
-   - Add neighbors to the open set if they are not already present.
-
-3. **Heuristic Calculation**:
-   - Use the Euclidean distance to calculate the heuristic.
-
-4. **Path Reconstruction**:
-   - Trace back from the goal to the start using the `came_from` dictionary to build the final path.
 
 ### Pseudocode Explanation
 
@@ -127,13 +105,6 @@ This test shows the algorithm's capability to navigate through narrow passages t
 
 ![Test Case 4]
 
-### Adding Your Own Test Cases
-
-You can also create and test your own scenarios:
-- Set up the grid and place obstacles in the GUI.
-- Define the start and goal points.
-- Click "Run" to see how the algorithm performs.
-- Capture screenshots of your test cases to document and share your results.
 
 ## Conclusion
 
