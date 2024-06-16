@@ -1,4 +1,4 @@
-# A* Path Planning Project
+![image](https://github.com/praneelraghuraman/A-star_search_algorithm/assets/45140318/b528b10d-ad43-4357-8847-0f3f442539ec)# A* Path Planning Project
 
 This project demonstrates the implementation of the A* path planning algorithm for navigating a grid-based environment. The A* algorithm is used to find the shortest path from a start point to an end point while avoiding obstacles.
 
@@ -85,25 +85,26 @@ Here are some example test cases showcasing the functionality of the A* path pla
 
 In this test case, the algorithm finds the shortest path from the start point to the goal in an obstacle-free environment.
 
-![Test Case 1]
+![Test Case 1](https://github.com/praneelraghuraman/A-star_search_algorithm/blob/main/images/test1.png?raw=true) 
+
 
 ### Test Case 2: Path with Obstacles
 
 This test case illustrates the algorithm's ability to navigate around obstacles to reach the goal.
 
-![Test Case 2]
+![Test Case 2](https://github.com/praneelraghuraman/A-star_search_algorithm/blob/main/images/test2.png?raw=true)
 
 ### Test Case 3: Complex Obstacles
 
 In this scenario, the algorithm finds a path through a more complex obstacle arrangement.
 
-![Test Case 3]
+![Test Case 3](https://github.com/praneelraghuraman/A-star_search_algorithm/blob/main/images/test3.png?raw=true)
 
 ### Test Case 4: Narrow Passages
 
 This test shows the algorithm's capability to navigate through narrow passages to find the goal.
 
-![Test Case 4]
+![Test Case 4](https://github.com/praneelraghuraman/A-star_search_algorithm/blob/main/images/test4.png?raw=true)
 
 
 ## Conclusion
