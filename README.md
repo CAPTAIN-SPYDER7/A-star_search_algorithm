@@ -1,4 +1,4 @@
-![image](https://github.com/praneelraghuraman/A-star_search_algorithm/assets/45140318/b528b10d-ad43-4357-8847-0f3f442539ec)# A* Path Planning Project
+# A* Path Planning Project
 
 This project demonstrates the implementation of the A* path planning algorithm for navigating a grid-based environment. The A* algorithm is used to find the shortest path from a start point to an end point while avoiding obstacles.
 
